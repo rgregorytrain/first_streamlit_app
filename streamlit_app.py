@@ -45,6 +45,6 @@ streamlit.header("The fruit load list contins:")
 streamlit.dataframe(my_data_row)
 
 #New Section to display fruityvice api respose
-streamlit.header('Fruity Frui Advice!')
-fruit_choice = streamlit.text_input('What fruit would you like information about?','Kiwi')
-streamlit.write('The user entered ', fruit_choice)
+
+fruit_choice_two = streamlit.text_input('What fruit would you like information about?','Kiwi')
+streamlit.write('The user entered ', fruit_choice_two)
